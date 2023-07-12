@@ -2,8 +2,6 @@ import { useState } from 'react';
 import Card from './components/Card';
 import CardsArr from './Cards.jsx'
 
-
-
 function App() {
   const cardsArr = CardsArr();
   const [active, setActive] = useState(2)
