@@ -6,7 +6,7 @@ function App() {
   const cardsArr = CardsArr();
   const [active, setActive] = useState(2)
 
-  const handleClick = (item, index) => {
+  const handleClick = (index) => {
     setActive(index);
   }
 

@@ -5,7 +5,7 @@ export default function Card({ handleClick, active, item, index }) {
     <>
       <div
         key={item.id}
-        onClick={() => handleClick(item, index)}
+        onClick={() => handleClick(index)}
         className='card'
         style={{
           display: 'grid',
