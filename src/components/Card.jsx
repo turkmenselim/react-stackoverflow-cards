@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Card({ handleClick, active, item, index }) {
   return (
     <>
@@ -25,4 +27,11 @@ export default function Card({ handleClick, active, item, index }) {
       </div>
     </>
   )
+}
+
+Card.propTypes = {
+  handleClick: PropTypes.func,
+  active: PropTypes.number,
+  item: PropTypes.object,
+  index: PropTypes.number
 }
